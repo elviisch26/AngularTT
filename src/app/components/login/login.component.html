@@ -1,0 +1,26 @@
+<body>
+    <div class="container">
+        <div *ngIf="!loading" class="form-sign">
+            <header>
+                <h1>Bienvenido a Registro y control de trabajos de Titulación</h1>
+                <a routerLink="/registro-usuario">Registra Usuario</a>
+            </header>
+
+            <div class="info">
+                <form (ngSubmit)="login()" [formGroup]="loginUsuario" class="sign-in">
+                    <h2>INICIAR SESION</h2>
+
+                    <div class="entrada">
+                        <input type="text" placeholder="Correo Electrónico" class="campo" formControlName="email">
+                    </div>
+                    <div class="entrada">
+                        <input type="password" placeholder="Contraseña" class="campo" formControlName="password">
+                    </div>
+                    <button type="submit" class="btn-sign">Iniciar Sesión</button>
+                    <a class="rec" routerLink="/recuperar" href="">Recuperar contraseña</a>
+                </form>
+            </div>
+        </div>    
+    </div>
+    <app-spiner *ngIf="loading"></app-spiner>
+</body>

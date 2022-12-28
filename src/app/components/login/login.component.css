@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu';
+}
+body{
+	background-color:rgb(199, 27, 64);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.form-sign{
+	background: rgba(0, 0, 0, .5);
+	max-width: 500px;
+	margin:auto;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.form-sign header{
+	color: #fff;
+	padding: 20px;
+}
+.form-sign header h1{
+	padding-top: 50px;
+}
+.form-sign header p{
+	padding-bottom: 50px;
+}
+.form-sign header a{
+	color: #fff;
+}
+.form-sign .info{
+	background: rgb(255, 255, 255);
+	color: #000;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	height: 375px;
+}
+.form-sign .info h2{
+	padding: 20px 0;
+}
+.form-sign .info .entrada{
+	max-width: 400px;
+	margin: 15px auto;
+	border: 1px solid #ccc;
+	border-radius: 50px;
+}
+.form-sign .info .entrada .campo{
+	width: 90%;
+	padding: 10px;
+	outline: none;
+	border: none;
+	background: transparent;
+}
+.btn-sign{
+	display: inline-block;
+	margin: 15px 0;
+	padding: 10px 15px;
+	border-radius: 50px;
+	border: none;
+	background-color: rgb(199, 27, 64);
+	color: #fff;
+}
+.btn-sign:hover{
+	background-color: #000;
+}
+form{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.rec{
+margin-left: 15%;
+color: rgb(199, 27, 64);
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Ubuntu';
+}
+body{
+	background-color:rgb(199, 27, 64);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.formulario{
+	background: rgba(0, 0, 0, .5);
+	max-width: 500px;
+	margin:auto;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.formulario header{
+	color: #fff;
+	padding: 20px;
+}
+.formulario header h1{
+	padding-top: 50px;
+}
+.formulario .campos{
+	background: rgb(255, 255, 255);
+	color: #000;
+	text-align: center;
+	position: relative;
+	width: auto;
+	height: auto;
+}
+.formulario .campos .registro{
+	max-width: 400px;
+	margin: 5px auto;
+	border: 1px solid #ccc;
+	border-radius: 50px;
+}
+.formulario .campos .registro .use{
+	width: 90%;
+	padding: 10px;
+	outline: none;
+	border: none;
+	background: transparent;
+}
+.btn-reg{
+	display: inline-block;
+	margin: 15px 0;
+	padding: 10px 15px;
+	border-radius: 50px;
+	border: none;
+	background-color: rgb(199, 27, 64);
+	color: #fff;
+}
+.btn-reg:hover{
+	background-color: #000;
+}
+.msj{
+	width: 150px;
+	text-align: center;
+	margin: auto;
+	color: rgb(104, 15, 15);
+	padding-top: 20px;
+}

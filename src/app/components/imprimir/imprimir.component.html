@@ -1,0 +1,43 @@
+<body>
+    <header>
+        <div class="container">
+            <p class="logo">Control de trabajos de titulación</p>
+            <nav>
+                <a routerLink="/principal">Inicio</a>
+                <a routerLink="/registro-trabajos">Registro</a>
+                <a routerLink="/control">Control</a>
+            </nav>
+        </div>
+    </header>
+    <div class="inicio">
+        <h1>Comprobante de Registro</h1>
+    
+    <h2>Comprobante de Registro</h2>
+    <ul>
+    <li><strong>Nombres:</strong> Gustabo Jesús</li>
+    <li><strong>Apellidos:</strong> Paez Alcivar</li>
+    <li><strong>Número de Cédula:</strong> 131661133-2</li>
+    <li><strong>Universidad:</strong>Eloy Alfaro de Manabí</li>
+    <li><strong>Facultad:</strong>Ingenería </li>
+    <li><strong>Carrera:</strong> Ingenería Industrial</li>
+    <li><strong>Tema:</strong> Diseño de un sistema Lean Manufacturing para la eliminación de desperdicios en pequeñas y medianas empresas PYMES de la parroquia Santa Rosa</li>
+    <li><strong>Tutor:</strong>Ing. Robert Mendoza </li>
+    <li><strong>Tipo de investigación:</strong> Cualitativa</li>
+    </ul>
+    <p>Documento valido para cualquier tipo de tramite relacionado a Trabajos de titulación.</p>
+    </div>
+    <button class="bt-imprimir" >Imprimir</button>
+    <hr>
+    <footer>
+        <div class="container">
+            <p>&copy; Registro y Control de trabajos de titulación 2022</p>
+        </div>
+    </footer>
+</body>
+<script>
+    document.querySelectorAll('.bt-imprimir').forEach(function(element) {
+    element.addEventListener('click', function() {
+        print();
+    });
+});
+</script>

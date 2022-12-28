@@ -1,0 +1,19 @@
+<body>
+    <div *ngIf="!loading" class="form-sign">
+        <header>
+            <h1>Bienvenido a Registro y control de trabajos de Titulación</h1>
+            <a routerLink="/login">Volver</a>
+        </header>
+        <div class="info">
+            <form [formGroup]="recuperarUsuario" (ngSubmit)="recuperar()" class="sign-in" >
+                <h2>Recuperar cuenta</h2>
+                <div class="entrada">
+                    <input type="text" placeholder="Correo Electrónico" formControlName="correo" class="campo" >
+                </div>
+                <button type="submit" class="btn-sign">Recuperar</button>
+            </form>
+        </div>
+        <app-spiner *ngIf="loading"></app-spiner>
+    </div>
+</body>
+
